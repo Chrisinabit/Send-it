@@ -1,0 +1,25 @@
+
+img{
+	height: 5rem;
+	width: 15rem;
+	margin-top: 1rem;
+	padding-bottom:1rem;
+}
+.btn1{
+	background-color: #006633;
+	color: white;
+	width: 5rem;
+	height: 2.5rem;
+	border:1px solid green;
+	border-radius: 0.5rem;
+}
+#con{
+	background-color: silver;
+	height: 55rem;
+}
+.form-control{
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-bottom: 2px solid black;
+}

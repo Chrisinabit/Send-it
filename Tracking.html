@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang ="en">
+<head>
+	<meta charset = "utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/all.min.css" rel="stylesheet">
+	<link href="css/Tracking.css" rel="stylesheet"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/SendIT.js"></script>	
+</head>
+<body>
+	<div class="container">
+		<div class="row bg-dark mt-1">
+			<div class="col-sm-12 col-md-6">
+				<img src="Images/SendIT.png">
+			</div>
+			<div class="col-sm-12 col-md-6">
+				<h1 class="text-danger mt-1"> Service You Can Trust</h1>
+			</div>
+		</div>
+		<div class="row mt-1 ml-n4">
+			<div class="col-sm-12 col-md-8">
+				<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+					<a class="navbar-brand" href="#">SendIT</a>
+					<button class="navbar-toggler" type="button" data-toggle= "collapse" data-target= "#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+					<div class="collapse navbar-collapse" id="collapsibleNavbar">
+						<ul class=" navbar-nav">
+							<li class="nav-item"><a class="nav-link" href="Home.html">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="Tracking.html"> Tracking</a></li>
+							<li class="nav-item"><a class="nav-link" href="Shipping.html"> Shipping</a></li>
+							<li class="nav-item"><a class="nav-link" href="Services.html"> Services</a></li>
+							<li class="nav-item"><a class="nav-link" href="Location.html"> Location</a></li>
+							<li class="nav-item"><a class="nav-link" href="Login.html"> Login</a></li>
+							<li class="nav-item"><a class="nav-link" href="Sign Up.html"> Sign Up</a></li>
+							<li class="nav-item"><a class="nav-link" href="My Profile.html"> My Profile</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<div class="col-sm-12 col-md-4">
+				<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+					<form class="form-inline">
+						<input class ="form-control mr-sm-2" type="text" placeholder="Search">
+						<button type="submit" class="btn1">Search</button>
+					</form>
+				</nav>
+			</div>	
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-md-4">
+				<img src="Images/A5.jpg" id="if">
+				<h3> Track SendIT Shipments</h3>
+				<p class="text-justify"> Here is the fastest way to check the status of your shipment. No need to speak with
+					a Customer Service Officer- our online results give you real-time, detailed progress as 
+				your shipment goes through the SendIT network.</p>
+			</div>
+			<div class="col-sm-12 col-md-8 mt-3 ml-2 px-5">
+				<div class="row"  id="me">
+					<div class="col-sm-12 col-md-6">
+						<h5 class="mt-4 py-2">Track Now</h5>
+						<form>
+							<label for= "Shipment type"> Select your Shipment type </label>
+							<select class="form-control">
+								<option>Express Services</option>
+								<option>Standard Services</option>
+								<option>Custom Services</option>
+							</select>
+						</form>
+					</div>
+					<div class="col-sm-12 col-md-6 mt-5">
+						<form>
+							<label for="Number">Tracking Number</label>
+							<textarea class="form-control" rows="4" placeholder="Enter your tracking number(s)"></textarea>
+							<button class="btn btn-danger mt-1 btn-md" id="bs"> Track <i class="fas fa-angle-double-right"></i></button>
+						</form>
+					</div>
+				</div>
+				<div>
+					<p> If you would love to speak to a someone persornally about the location of your
+					shipment, please contact SendIT customer service</p>
+					<a href="#"><h6> Terms and Conditions</h6></a>
+					<a href="#"><h6> Tracking FAQs</h6></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
